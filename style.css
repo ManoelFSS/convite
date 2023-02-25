@@ -1,0 +1,84 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #f3b6b6 url(https://i.pinimg.com/originals/f1/98/2e/f1982ee8df2bd51eacc8d4ffa71b2e62.gif) no-repeat center / cover;
+}
+H1{
+  color:red;
+  font-size: clamp(1vw,2vw + 2vw,1em);
+}
+h2{
+  color: red;
+  padding-bottom: 10px;
+}
+H3 {
+  text-align: center;
+  color: #ec00d9;
+  padding-bottom: 10px;
+
+}
+
+b {
+  font-weight: bolder;
+}
+.data{
+  text-align: center;
+  font-size: 12px;
+  margin-left: -18px;
+}
+.data span{
+  font-size: 16px;
+  color: red;
+}
+.endereço{
+  text-align: center;
+  font-size: 12px;
+}
+.endereço span{
+  font-size: 16px;
+  color: red;
+}
+.amor{
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.conteiner_card{
+  position: relative;
+  display:none;
+  justify-content: center;
+  padding: 110px 50px;
+  min-width: 280px;
+  max-width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  animation:  anima 1.4s alternate-reverse infinite;
+  background: url(https://i.pinimg.com/originals/8a/82/e8/8a82e8e0abd20edc6575fd3518dda8c8.jpg) no-repeat center / 100% 100%;
+}
+
+@keyframes anima {
+  0%{
+    box-shadow:  0px 0px  10px 1px rgba(255, 0, 0, 0.466);
+  }
+
+  100%{
+    box-shadow:  0px 0px  26px 1px red;
+  }
+}
+
+.conteiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
